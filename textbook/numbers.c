@@ -7,6 +7,9 @@ int main()
 
 
 	printf("\101 \x42 C\n");
+
+	printf("'\101'\n");   //加上单引号则输出ASC2码代表的字符，输出也显示单引号
+
 	printf("I say :\"How are you?\"\n");
 	printf("\\C Program\\ \n");
 	printf("Turbo \'C\'\n");
