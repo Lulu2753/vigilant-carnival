@@ -1,15 +1,13 @@
 #include <stdio.h>
-#define SQUARE(X) ((X)*(X))
+#define SQUARE(x) ((x)*(x))
 
 int main()
 {
+	int a, s;
 	printf("Please enter the side length of the square:");
-	
-	int a;
 	scanf_s("%d", &a);
-	
-	double s = SQUARE(a);
-	printf("The area of the square is %.4f.\n",&s);
+	s = SQUARE(a);
+	printf("The area of the square is %d\n",s);
 
 	return 0;
 }
