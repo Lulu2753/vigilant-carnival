@@ -1,2 +1,0 @@
-# vigilant-carnival
-Hello World
