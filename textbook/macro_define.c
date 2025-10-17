@@ -9,5 +9,9 @@ int main()
 	printf("%s\n",A SPACE B);   //%s代表字符串，变量之间只能空格，加逗号则只会显示第一对逗号内的
 	printf("%s\n",C);
 
+#undef B
+#define B "a teacher."  //重新定义，即修改原来变量内容
+	printf("%s\n", A SPACE B);
+
 	return 0;
 }
