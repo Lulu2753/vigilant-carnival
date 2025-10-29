@@ -15,7 +15,7 @@ int main()
     h=(int)x;
     m=ceil((D*1.0/(a+b)-h)*60);
 
-    printf("%dĞ¡Ê±%d·ÖÖÓ",h,m);
+    printf("%då°æ—¶%dåˆ†é’Ÿ,h,m);
 
 
 
