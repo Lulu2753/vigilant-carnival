@@ -1,0 +1,4 @@
+﻿  alphabet.c
+D:\Users\Nwnw9\source\repos\Textbook24\alphabet.c(8,9): warning C4101: 'y': unreferenced local variable
+D:\Users\Nwnw9\source\repos\Textbook24\alphabet.c(6,7): warning C4101: 'ch': unreferenced local variable
+  Textbook24.vcxproj -> D:\Users\Nwnw9\source\repos\Textbook24\x64\Debug\Textbook24.exe

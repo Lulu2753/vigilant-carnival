@@ -1,0 +1,8 @@
+﻿  file.c
+  Generating code
+D:\Users\Nwnw9\source\repos\Textbook24\file.c(41): warning C4716: 'day': must return a value
+  2 of 8 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Textbook24.vcxproj -> D:\Users\Nwnw9\source\repos\Textbook24\x64\Release\Textbook24.exe
