@@ -5,7 +5,7 @@ int master1()
 {
 	int a, b, c, max;
 	scanf_s("%d%d%d", &a, &b, &c);
-	max = ((a >= b) ? a : (b >= c) ? b : c);
+	max = ((a >= b) ? a : (b >= c) ? b : c);  //如果a>b不对，则比较b和c
 
 	return max;
 }

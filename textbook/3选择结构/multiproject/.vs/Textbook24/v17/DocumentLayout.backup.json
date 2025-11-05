@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\alphabet.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|solutionrelative:alphabet.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\file.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|solutionrelative:file.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\file.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|solutionrelative:file.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\alphabet.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64B57994-779A-451D-A21D-CEF36123E7EA}|Textbook24.vcxproj|solutionrelative:alphabet.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "file.h",
               "DocumentMoniker": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\file.h",
               "RelativeDocumentMoniker": "file.h",
@@ -44,26 +44,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "file.c",
               "DocumentMoniker": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\file.c",
               "RelativeDocumentMoniker": "file.c",
               "ToolTip": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\file.c",
               "RelativeToolTip": "file.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-31T13:42:34.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "alphabet.c",
               "DocumentMoniker": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\alphabet.c",
               "RelativeDocumentMoniker": "alphabet.c",
-              "ToolTip": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\alphabet.c*",
-              "RelativeToolTip": "alphabet.c*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\Users\\Nwnw9\\source\\repos\\Textbook24\\alphabet.c",
+              "RelativeToolTip": "alphabet.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-31T13:08:45.956Z",
               "EditorCaption": ""
