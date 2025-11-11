@@ -6,13 +6,13 @@ int main()
 	
 	do
 	{
-		system("cls");  //ÇåÆÁ
+		system("cls");  //æ¸…å±
 
 		y = scanf_s("%d", &x);
 
 		if (y == 1)
 			break;
-	} while (1); //ËÀÑ­»·
+	} while (1); //æ­»å¾ªç¯
 	
 
 	printf("Correct!\n");
