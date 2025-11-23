@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763623004 source:e:\7-3 求n以内最大的k个素数以及它们的和\main.c
+	<stdio.h>
+	<stdlib.h>
+

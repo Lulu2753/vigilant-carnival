@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763619564 source:e:\7-1 求符合给定条件的整数集\main.c
+	<stdio.h>
+	<stdlib.h>
+
