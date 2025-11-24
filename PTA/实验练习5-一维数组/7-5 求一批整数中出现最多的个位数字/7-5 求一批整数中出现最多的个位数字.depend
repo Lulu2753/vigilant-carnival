@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763954600 source:e:\7-5 求一批整数中出现最多的个位数字\main.c
+	<stdio.h>
+	<stdlib.h>
+
