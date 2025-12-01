@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1764549086 source:e:\7-2 求矩阵的局部极大值\main.c
+	<stdio.h>
+	<stdlib.h>
+
