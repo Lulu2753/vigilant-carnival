@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1765165496 source:e:\7-5 利用二分查找搜寻所有待查找数据\main.c
+	<stdio.h>
+	<stdlib.h>
+
