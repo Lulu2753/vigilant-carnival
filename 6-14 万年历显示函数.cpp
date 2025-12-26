@@ -13,17 +13,23 @@ void textcolor(int color);
 
 int main()
 {
-    int y, m;
+    int y, m;  
+
+    printf("\nIt is used to show the Calendar for every single month since 1900\n\n");
+
+    printf("Please enter the year and month respectively with only numbers and a single space between them: \n\n");
 
     while (1)
     {
-        scanf_s("%d%d", &y, &m);
+        scanf_s("%d%d", &y, &m);   //中间如果有逗号，那么m无法被赋值
 
         if (y < 1900 || m <= 0 || m>12)
         {
-            printf("\nError! Please enter the right year and month!\n\n");
+            printf("\nInvalid input! Please enter the right year and month!\n\n");
             system("pause");
             system("cls");
+            printf("\nIt is used to show the Calendar for every single month since 1900\n\n");
+            printf("Please enter the year and month respectively with only numbers and a single space between them: \n\n");
         }
 
         else
