@@ -3,8 +3,15 @@
   "WorkspaceRootPath": "D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B755E75E-A77D-4A74-85FE-0AFE41D4FC25}|Score Managing System\\Score Managing System.vcxproj|D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\Score Managing System\\password.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B755E75E-A77D-4A74-85FE-0AFE41D4FC25}|Score Managing System\\Score Managing System.vcxproj|solutionrelative:Score Managing System\\password.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B755E75E-A77D-4A74-85FE-0AFE41D4FC25}|Score Managing System\\Score Managing System.vcxproj|D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\Score Managing System\\calculate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B755E75E-A77D-4A74-85FE-0AFE41D4FC25}|Score Managing System\\Score Managing System.vcxproj|solutionrelative:Score Managing System\\calculate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4E2A\u4EBA\\2025-2026\u5B66\u5E74\u5EA6\\\u4E0A\u8BFE\u6587\u4EF6\\C\u8BED\u8A00\u7A0B\u5E8F\u8BBE\u8BA1\\\u4EE3\u7801\\textbook\\5\u6570\u7EC4\\password.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +21,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "password.c",
+              "DocumentMoniker": "D:\\\u4E2A\u4EBA\\2025-2026\u5B66\u5E74\u5EA6\\\u4E0A\u8BFE\u6587\u4EF6\\C\u8BED\u8A00\u7A0B\u5E8F\u8BBE\u8BA1\\\u4EE3\u7801\\textbook\\5\u6570\u7EC4\\password.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u4E2A\u4EBA\\2025-2026\u5B66\u5E74\u5EA6\\\u4E0A\u8BFE\u6587\u4EF6\\C\u8BED\u8A00\u7A0B\u5E8F\u8BBE\u8BA1\\\u4EE3\u7801\\textbook\\5\u6570\u7EC4\\password.c",
+              "ToolTip": "D:\\\u4E2A\u4EBA\\2025-2026\u5B66\u5E74\u5EA6\\\u4E0A\u8BFE\u6587\u4EF6\\C\u8BED\u8A00\u7A0B\u5E8F\u8BBE\u8BA1\\\u4EE3\u7801\\textbook\\5\u6570\u7EC4\\password.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u4E2A\u4EBA\\2025-2026\u5B66\u5E74\u5EA6\\\u4E0A\u8BFE\u6587\u4EF6\\C\u8BED\u8A00\u7A0B\u5E8F\u8BBE\u8BA1\\\u4EE3\u7801\\textbook\\5\u6570\u7EC4\\password.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-11T13:37:12.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "password.c",
+              "DocumentMoniker": "D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\Score Managing System\\password.c",
+              "RelativeDocumentMoniker": "Score Managing System\\password.c",
+              "ToolTip": "D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\Score Managing System\\password.c",
+              "RelativeToolTip": "Score Managing System\\password.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-11T13:35:10.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "calculate.c",
               "DocumentMoniker": "D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\Score Managing System\\calculate.c",
               "RelativeDocumentMoniker": "Score Managing System\\calculate.c",
               "ToolTip": "D:\\Users\\Nwnw9\\source\\repos\\Score Managing System\\Score Managing System\\calculate.c",
               "RelativeToolTip": "Score Managing System\\calculate.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-06T14:00:47.674Z",
               "EditorCaption": ""

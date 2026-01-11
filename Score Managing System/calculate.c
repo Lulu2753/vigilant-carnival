@@ -10,11 +10,25 @@ struct Info
 
 };
 
+struct User
+{
+	char name[20];
+	char password[50];
+};
+
+extern struct User admin;
+
+void psw();
+
+
 int main()
 {
 	struct Info info[100];
 	
+	
 	int i = 0;
+
+
 
 	while (1)
 	{

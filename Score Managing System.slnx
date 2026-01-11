@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Score Managing System/Score Managing System.vcxproj" />
+  <Project Path="Score Managing System/Score Managing System.vcxproj" Id="b755e75e-a77d-4a74-85fe-0afe41d4fc25" />
 </Solution>
