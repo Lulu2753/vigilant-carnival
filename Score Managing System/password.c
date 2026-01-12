@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "functions.h"
 
+
 void psw()
 {
 	char user[100], psw[100], c;

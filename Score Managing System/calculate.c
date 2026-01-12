@@ -16,9 +16,7 @@ struct User
 	char password[50];
 };
 
-extern struct User admin;
 
-void psw();
 
 
 int main()
@@ -28,7 +26,7 @@ int main()
 	
 	int i = 0;
 
-
+	void psw();
 
 	while (1)
 	{
