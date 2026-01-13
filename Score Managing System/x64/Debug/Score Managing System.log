@@ -1,17 +1,13 @@
 ﻿  calculate.c
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(21,17): error C2332: 'struct': missing tag name
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(38,11): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
-      D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(38,11):
+D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(16,11): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+      D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(16,11):
       this argument is used as a buffer size
   
   password.c
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(10,3): warning C4013: 'gets' undefined; assuming extern returning int
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(17,8): warning C4013: '_getch' undefined; assuming extern returning int
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(38,7): warning C4013: 'strcmp' undefined; assuming extern returning int
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(38,14): error C2065: 'admin': undeclared identifier
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(38,20): error C2224: left of '.password' must have struct/union type
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(42,18): error C2065: 'admin': undeclared identifier
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(42,24): error C2224: left of '.name' must have struct/union type
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(42,51): error C2065: 'admin': undeclared identifier
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(42,57): error C2224: left of '.password' must have struct/union type
+D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(12,3): warning C4013: 'gets' undefined; assuming extern returning int
+D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(19,8): warning C4013: '_getch' undefined; assuming extern returning int
+D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(40,7): warning C4013: 'strcmp' undefined; assuming extern returning int
   Generating Code...
+calculate.obj : error LNK2001: unresolved external symbol info
+password.obj : error LNK2001: unresolved external symbol admin
+D:\Users\Nwnw9\source\repos\Score Managing System\x64\Debug\Score Managing System.exe : fatal error LNK1120: 2 unresolved externals

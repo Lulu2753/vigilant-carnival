@@ -1,28 +1,8 @@
 #include <stdio.h>
-
-struct Info
-{
-	char subject[100];
-	int term;
-	double credit;
-	double score;
-	char type;
-
-};
-
-struct User
-{
-	char name[20];
-	char password[50];
-};
-
-
-
+#include "functions.h"
 
 int main()
 {
-	struct Info info[100];
-	
 	
 	int i = 0;
 
