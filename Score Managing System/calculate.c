@@ -1,11 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 #include "functions.h"
 
 int main()
 {
 	
 	int i = 0;
+	struct Info info[100];
+	struct User admin = { "Lulu","1234" };//这样标准的给结构体赋值
 
+
+	
 	void psw();
 
 	while (1)

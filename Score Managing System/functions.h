@@ -14,8 +14,8 @@ struct User
 	char password[50];
 };
 
-extern struct User admin;
-extern struct Info info[100];
+extern struct User admin;  //定义的时候就没有extern
+extern struct Info info[100];   //头文件声明，源文件定义！！
 
 
 

@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 #include "functions.h"
 
 
 void psw()
 {
 	char user[100], psw[100], c;
+	struct User admin = { "Lulu","1234" };//这样标准的给结构体赋值
+
 
 	do
 	{

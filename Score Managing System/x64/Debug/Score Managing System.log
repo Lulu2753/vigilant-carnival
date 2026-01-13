@@ -1,13 +1,4 @@
-﻿  calculate.c
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(16,11): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
-      D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\calculate.c(16,11):
-      this argument is used as a buffer size
-  
-  password.c
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(12,3): warning C4013: 'gets' undefined; assuming extern returning int
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(19,8): warning C4013: '_getch' undefined; assuming extern returning int
-D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(40,7): warning C4013: 'strcmp' undefined; assuming extern returning int
-  Generating Code...
-calculate.obj : error LNK2001: unresolved external symbol info
-password.obj : error LNK2001: unresolved external symbol admin
-D:\Users\Nwnw9\source\repos\Score Managing System\x64\Debug\Score Managing System.exe : fatal error LNK1120: 2 unresolved externals
+﻿  password.c
+D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(15,3): warning C4013: 'gets' undefined; assuming extern returning int
+D:\Users\Nwnw9\source\repos\Score Managing System\Score Managing System\password.c(22,8): warning C4013: '_getch' undefined; assuming extern returning int
+  Score Managing System.vcxproj -> D:\Users\Nwnw9\source\repos\Score Managing System\x64\Debug\Score Managing System.exe
