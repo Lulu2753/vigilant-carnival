@@ -1,0 +1,35 @@
+◆实验器材:
+	STM32F103开发板
+	
+◆实验目的:
+	LED驱动
+	
+◆硬件资源:
+	1,LED1(连接在PB0) 
+	2.LED2(连接在PB1) 
+	
+◆实验现象:
+	实验现象：LED1和LED2交替亮灭。
+		   
+-------------------------------------------------------------------------------------------
+
+◆其他重要连接：
+ 淘宝店铺：https://shop475501589.taobao.com/?spm=pc_detail.29232929/evo365560b447259.shop_block.dshopinfo.5dd97dd6JvMuG3
+ 
+ 咸鱼店铺：https://www.goofish.com/personal?spm=a21ybx.item.itemHeader.1.c17a3da6hy8k28&userId=3890583014
+ 
+ 哔哩哔哩：https://space.bilibili.com/482024430?spm_id_from=333.788.upinfo.detail.click
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

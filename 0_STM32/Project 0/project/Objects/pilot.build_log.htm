@@ -1,0 +1,258 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: 礦ision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.43.0.0
+Toolchain Path:  E:\Users\Nwnw9\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.24
+Assembler:       Armasm.exe V6.24
+Linker/Locator:  ArmLink.exe V6.24
+Library Manager: ArmAr.exe V6.24
+Hex Converter:   FromElf.exe V6.24
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.16.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\个人\2026\流水灯\Project 0\project\pilot.uvprojx
+Project File Date:  01/19/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.24', folder: 'E:\Users\Nwnw9\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'STM32F103'
+<built-in>(405): warning: In file included from...
+<command line>(4): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |                     ^
+<command line>(4): warning: 'STM32F10X_MD' macro redefined [-Wmacro-redefined]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |         ^
+<command line>(3): note: previous definition is here
+    3 | #define STM32F10X_MD 1
+      |         ^
+../STLib/fwlib/src/misc.c(98): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   98 |   assert_param(IS_NVIC_PRIORITY_GROUP(NVIC_PriorityGroup));
+      |   ^
+../STLib/fwlib/src/misc.c(116): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  116 |   assert_param(IS_FUNCTIONAL_STATE(NVIC_InitStruct->NVIC_IRQChannelCmd));
+      |   ^
+../STLib/fwlib/src/misc.c(158): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  158 |   assert_param(IS_NVIC_VECTTAB(NVIC_VectTab));
+      |   ^
+../STLib/fwlib/src/misc.c(177): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  177 |   assert_param(IS_NVIC_LP(LowPowerMode));
+      |   ^
+../STLib/fwlib/src/misc.c(201): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  201 |   assert_param(IS_SYSTICK_CLK_SOURCE(SysTick_CLKSource));
+      |   ^
+2 warnings and 5 errors generated.
+compiling misc.c...
+<built-in>(405): warning: In file included from...
+<command line>(4): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |                     ^
+<command line>(4): warning: 'STM32F10X_MD' macro redefined [-Wmacro-redefined]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |         ^
+<command line>(3): note: previous definition is here
+    3 | #define STM32F10X_MD 1
+      |         ^
+../STLib/core/core_cm3.c(445): error: non-ASM statement in naked function is not supported
+  445 |   uint32_t result=0;
+      |   ^
+../STLib/core/core_cm3.c(442): note: attribute is here
+  442 | uint32_t __get_PSP(void) __attribute__( ( naked ) );
+      |                                           ^
+../STLib/core/core_cm3.c(465): error: parameter references not allowed in naked functions
+  465 |                   "BX  lr     \n\t" : : "r" (topOfProcStack) );
+      |                                              ^
+../STLib/core/core_cm3.c(461): note: attribute is here
+  461 | void __set_PSP(uint32_t topOfProcStack) __attribute__( ( naked ) );
+      |                                                          ^
+../STLib/core/core_cm3.c(479): error: non-ASM statement in naked function is not supported
+  479 |   uint32_t result=0;
+      |   ^
+../STLib/core/core_cm3.c(476): note: attribute is here
+  476 | uint32_t __get_MSP(void) __attribute__( ( naked ) );
+      |                                           ^
+../STLib/core/core_cm3.c(499): error: parameter references not allowed in naked functions
+  499 |                   "BX  lr     \n\t" : : "r" (topOfMainStack) );
+      |                                              ^
+../STLib/core/core_cm3.c(495): note: attribute is here
+  495 | void __set_MSP(uint32_t topOfMainStack) __attribute__( ( naked ) );
+      |                                                          ^
+2 warnings and 4 errors generated.
+compiling core_cm3.c...
+<built-in>(405): warning: In file included from...
+<command line>(4): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |                     ^
+<command line>(4): warning: 'STM32F10X_MD' macro redefined [-Wmacro-redefined]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |         ^
+<command line>(3): note: previous definition is here
+    3 | #define STM32F10X_MD 1
+      |         ^
+../STLib/fwlib/src/stm32f10x_gpio.c(110): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  110 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(177): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  177 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(285): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  285 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(307): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  307 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(323): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  323 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(345): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  345 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(360): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  360 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(376): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  376 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(396): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  396 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(419): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  419 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(436): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  436 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(465): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  465 |   assert_param(IS_GPIO_EVENTOUT_PORT_SOURCE(GPIO_PortSource));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(485): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  485 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(553): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  553 |   assert_param(IS_GPIO_REMAP(GPIO_Remap));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(612): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  612 |   assert_param(IS_GPIO_EXTI_PORT_SOURCE(GPIO_PortSource));
+      |   ^
+../STLib/fwlib/src/stm32f10x_gpio.c(631): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  631 |   assert_param(IS_GPIO_ETH_MEDIA_INTERFACE(GPIO_ETH_MediaInterface)); 
+      |   ^
+2 warnings and 16 errors generated.
+compiling stm32f10x_gpio.c...
+<built-in>(405): warning: In file included from...
+<command line>(4): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |                     ^
+<command line>(4): warning: 'STM32F10X_MD' macro redefined [-Wmacro-redefined]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |         ^
+<command line>(3): note: previous definition is here
+    3 | #define STM32F10X_MD 1
+      |         ^
+../STLib/fwlib/src/stm32f10x_rcc.c(272): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  272 |   assert_param(IS_RCC_HSE(RCC_HSE));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(337): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  337 |   assert_param(IS_RCC_CALIBRATION_VALUE(HSICalibrationValue));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(356): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  356 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(382): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  382 |   assert_param(IS_RCC_PLL_SOURCE(RCC_PLLSource));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(403): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  403 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(567): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  567 |   assert_param(IS_RCC_SYSCLK_SOURCE(RCC_SYSCLKSource));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(611): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  611 |   assert_param(IS_RCC_HCLK(RCC_SYSCLK));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(637): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  637 |   assert_param(IS_RCC_PCLK(RCC_HCLK));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(663): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  663 |   assert_param(IS_RCC_PCLK(RCC_HCLK));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(702): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  702 |   assert_param(IS_RCC_IT(RCC_IT));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(730): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  730 |   assert_param(IS_RCC_USBCLK_SOURCE(RCC_USBCLKSource));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(769): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  769 |   assert_param(IS_RCC_ADCCLK(RCC_PCLK2));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(832): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  832 |   assert_param(IS_RCC_LSE(RCC_LSE));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(865): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  865 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(882): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  882 |   assert_param(IS_RCC_RTCCLK_SOURCE(RCC_RTCCLKSource));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(896): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  896 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(1067): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1067 |   assert_param(IS_RCC_AHB_PERIPH(RCC_AHBPeriph));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(1098): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1098 |   assert_param(IS_RCC_APB2_PERIPH(RCC_APB2Periph));
+      |   ^
+../STLib/fwlib/src/stm32f10x_rcc.c(1129): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1129 |   assert_param(IS_RCC_APB1_PERIPH(RCC_APB1Periph));
+      |   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+2 warnings and 20 errors generated.
+compiling stm32f10x_rcc.c...
+<built-in>(405): warning: In file included from...
+<command line>(4): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |                     ^
+<command line>(4): warning: 'STM32F10X_MD' macro redefined [-Wmacro-redefined]
+    4 | #define STM32F10X_MD.USE_STDPERIPH_DRIVER 1
+      |         ^
+<command line>(3): note: previous definition is here
+    3 | #define STM32F10X_MD 1
+      |         ^
+../boards/stm32f103c8t6/board_config.c(51): error: call to undeclared function 'NVIC_PriorityGroupConfig'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   51 |     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);     
+      |     ^
+../boards/stm32f103c8t6/board_config.c(51): error: use of undeclared identifier 'NVIC_PriorityGroup_2'
+   51 |     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);     
+      |                              ^
+2 warnings and 2 errors generated.
+compiling board_config.c...
+".\Objects\pilot.axf" - 46 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  E:/Users/Nwnw9/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
