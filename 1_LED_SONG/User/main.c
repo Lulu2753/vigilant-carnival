@@ -1,12 +1,16 @@
 #include "stm32f10x.h"  // Device header
+#include "LED.h"
+
 
 int main(void)
 {
-		RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+	LED_Init();
+	
 	
 	while(1)
-		{
-			
-		}
-
+	{
+		 LED_ON();
+	}
+	
 }
+

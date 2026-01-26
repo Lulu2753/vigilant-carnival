@@ -407,6 +407,16 @@
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
             </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\LED.c</FilePath>
+            </File>
+            <File>
+              <FileName>LED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\LED.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
