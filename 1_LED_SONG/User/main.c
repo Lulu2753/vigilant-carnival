@@ -4,12 +4,16 @@
 
 int main(void)
 {
-	LED_Init();
+	LED_InitA();
+	LED_InitB();
 	
 	
 	while(1)
 	{
-		 LED_ON();
+		GPIO_SetBits(GPIOA,GPIO_Pin_0);
+		GPIO_ResetBits(GPIOA,GPIO_Pin_0);
+		
+		
 	}
 	
 }

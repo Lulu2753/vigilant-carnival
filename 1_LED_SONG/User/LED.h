@@ -1,8 +1,8 @@
 #ifndef _LED_H_  //如果不包含LED_H
 #define _LED_H_  //那就定义。。
 
-void LED_Init();
-void LED_ON();
+void LED_InitA();
+void LED_InitB();
 
 
 #endif  //结束条件编译检查
