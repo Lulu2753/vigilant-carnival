@@ -1,6 +1,6 @@
 #include "stm32f10x.h"  // Device header
 
-void LED_InitA()
+void LED_InitA(void)
 {
 	//GPIO初始化 PA0
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);  //打开GPIOA外设时钟
@@ -14,7 +14,7 @@ void LED_InitA()
 	
 }
 
-void LED_InitB()
+void LED_InitB(void)
 {
 	//GPIO初始化 PB0
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);  //打开GPIOB外设时钟
