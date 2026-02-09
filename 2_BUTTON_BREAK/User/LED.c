@@ -27,4 +27,21 @@ void LED_InitB(void)
 	//配置GPIO的PB0引脚
 }
 
+void LED_Turn(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)  //翻转灯的状态，不是开关灯
+{
+	if(GPIO_ReadOutputDataBit(GPIOx,GPIO_Pin)==1)
+		GPIO_ResetBits(GPIOx,GPIO_Pin);
+	else
+		GPIO_SetBits(GPIOx,GPIO_Pin);
+}
+
+void LED_Off(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+{
+		GPIO_ResetBits(GPIOx,GPIO_Pin);
+}
+
+void LED_On(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+{
+		GPIO_SetBits(GPIOx,GPIO_Pin);
+}
 

@@ -417,6 +417,16 @@
               <FileType>5</FileType>
               <FilePath>.\User\LED.h</FilePath>
             </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\timer.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

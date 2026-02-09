@@ -39,8 +39,8 @@ void Key_I_Init(void)
 
 
 void EXTI0_IRQHandler(void)
-{
-	GPIO_ResetBits(GPIOA,GPIO_Pin_0);
+{ 
+	LED_Turn(GPIOA,GPIO_Pin_0);
 	
 	EXTI_ClearITPendingBit(EXTI_Line0);
 }

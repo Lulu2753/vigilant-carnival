@@ -2,6 +2,7 @@
 ".\objects\stm32f10x_it.o"
 ".\objects\main.o"
 ".\objects\led.o"
+".\objects\timer.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_adc.o"
 ".\objects\stm32f10x_bkp.o"
