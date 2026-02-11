@@ -16,6 +16,7 @@
 #define NOTE_E5  659  // Mi高
 #define NOTE_F5  698
 #define NOTE_F5u  740
+#define NOTE_G5  784
 #define NOTE_REST 0   // 休止符
 
 // 歌曲最大音符数

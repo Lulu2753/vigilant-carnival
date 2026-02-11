@@ -43,10 +43,29 @@ const Note song2_notes[]={
 		{NOTE_G4, 200, 0x01}, 
 		{NOTE_A4, 200, 0x01}, 
 		{NOTE_D5, 400, 0x01}, 
-		{NOTE_D5, 200, 0x01}, 
-		{NOTE_B4, 200, 0x01}, 
+		{NOTE_C5, 400, 0x01}, 
+		{NOTE_D5, 400, 0x01}, 
 		{NOTE_D5, 400, 0x01}, 
 		{NOTE_B4, 600, 0x01}, 
+		
+		{NOTE_G4, 200, 0x01},
+		{NOTE_D5, 200, 0x01}, 
+		{NOTE_E5, 200, 0x01}, 
+		{NOTE_E5, 200, 0x01}, 
+		{NOTE_D5, 200, 0x01}, 
+		{NOTE_E5, 600, 0x01}, 
+		{NOTE_E5, 200, 0x01}, 
+		{NOTE_E5, 200, 0x01}, 
+		{NOTE_F5u, 200, 0x01}, 
+		{NOTE_F5u, 200, 0x01}, 
+		{NOTE_E5, 200, 0x01}, 
+		{NOTE_F5u, 600, 0x01}, 
+		{NOTE_E5, 200, 0x01}, 
+		{NOTE_F5u, 600, 0x01}, 
+		{NOTE_F5u, 200, 0x01}, 
+		{NOTE_E5, 400, 0x01}, 
+		{NOTE_G5, 200, 0x01}, 
+		{NOTE_F5u, 600, 0x01}, 
 		{0, 0, 0} //要有结束标志
 };
 
@@ -108,7 +127,8 @@ void TIM_I(void)
 	//打开定时器中断
 	TIM_ITConfig(TIM2,TIM_IT_Update,ENABLE);
 	
-	Buzzer_PlayTone(song1_notes[0].frequency);
+	Buzzer_PlayTone(song2_notes[0].frequency);
+	LED_Set(song2_notes[0].led_mask);
 	
 	//开始运行定时器
 	TIM_Cmd(TIM2,ENABLE);
@@ -124,9 +144,9 @@ void TIM2_IRQHandler(void)
 		
 		note_timer++;
 		
-		if(note_timer<=song1_notes[current_note].duration);
+		if(note_timer<=song2_notes[current_note].duration);
 		
-		else if(note_timer<=song1_notes[current_note].duration+30)
+		else if(note_timer<=song2_notes[current_note].duration+30)
 		{
 			Buzzer_Stop();
 			
@@ -136,14 +156,14 @@ void TIM2_IRQHandler(void)
 		{	
 			current_note++;
 				
-			if(current_note>songs[0].length-1)
+			if(current_note>songs[1].length-1)
 				current_note=0;
 			
 			note_timer=0;
 			
-			Buzzer_PlayTone(song1_notes[current_note].frequency);
+			Buzzer_PlayTone(song2_notes[current_note].frequency);
 			
-			LED_Set(song1_notes[current_note].led_mask);
+			LED_Set(song2_notes[current_note].led_mask);
 		}
 	}
 }
