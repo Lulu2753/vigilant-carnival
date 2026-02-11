@@ -29,10 +29,11 @@ void Buzzer_Init(void)
 	TIM_OCInitTypeDef TIM_OCStruct; 
 	TIM_OCStruct.TIM_OCMode=TIM_OCMode_PWM1; //模式1：定时器计数器的值小于比较寄存器（CCR）的值时，输出有效电平（由极性设置），否则输出无效电平
 	TIM_OCStruct.TIM_OutputState=TIM_OutputState_Enable;//允许PWM信号从引脚输出
-	TIM_OCStruct.TIM_Pulse=30; //CRR的值，决定PWM占空比=CRR/(ARR+1)，表示初始高电平时间为30个周期，低电平则为999-30个周期
-	TIM_OCStruct.TIM_OCPolarity=TIM_OCPolarity_High;  //输出有效电平时，引脚输出高电平
-	TIM_OC3Init(TIM4,&TIM_OCStruct);
+	TIM_OCStruct.TIM_Pulse=0; //CRR的值，决定PWM占空比=CRR/(ARR+1)，表示初始高电平时间为30个周期，低电平则为999-30个周期
+	TIM_OCStruct.TIM_OCPolarity=TIM_OCPolarity_Low;  //输出有效电平时，引脚输出低电平（蜂鸣器低电平触发）
 	
+	TIM_OC3Init(TIM4,&TIM_OCStruct);
+	TIM_OC3PreloadConfig(TIM4,TIM_OCPreload_Enable); //使预装载
 	
 	//开始运行定时器
 	TIM_Cmd(TIM4,ENABLE);
@@ -40,4 +41,24 @@ void Buzzer_Init(void)
 }
 //蜂鸣器音调由ARR决定，声音大小由占空比决定
 
+void Buzzer_PlayTone(uint16_t frequency)
+{
+	if(frequency == 0)
+	{
+		TIM_SetCompare3(TIM4,0);
+		return;  //立即停止蜂鸣器并退出函数
+	}
+	
+	uint32_t arr = 1000000/frequency -1;  //频率=1MHz/（ARR+1），读取的ARR来发声
+	
+	TIM_SetAutoreload(TIM4,arr);  //设置ARR，即改变频率
+	
+	TIM_SetCompare3(TIM4,arr/2);  //设置占空比50%（响度）
+	
+}
 
+
+void Buzzer_Stop(void)
+{
+	TIM_SetCompare3(TIM4,0); //占空比为0，无输出
+}

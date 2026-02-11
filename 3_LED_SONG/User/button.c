@@ -13,7 +13,7 @@ void Key_Init()
 }
 //extern uint8_t cnt = 0;
 
-uint8_t Key_Pressed_Release(void)
+/*uint8_t Key_Pressed_Release(void)
 {
 	static uint8_t key_state=0;
 	
@@ -45,4 +45,4 @@ uint8_t Key_Pressed_Release(void)
 			return 0;
 			
 	}
-}
+}*/

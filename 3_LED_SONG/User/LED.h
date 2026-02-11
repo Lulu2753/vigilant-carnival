@@ -8,6 +8,7 @@ void LED_InitB(void);   //声明、定义的时候加void即可，调用不加
 void LED_Turn(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
 void LED_Off(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
 void LED_On(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+void LED_Set(uint8_t mask);
 
 #endif  //结束条件编译检查
 

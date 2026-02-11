@@ -29,5 +29,6 @@
 .\objects\main.o: .\Library\stm32f10x_wwdg.h
 .\objects\main.o: .\Library\misc.h
 .\objects\main.o: User\LED.h
-.\objects\main.o: User\timer.h
+.\objects\main.o: User\music.h
 .\objects\main.o: User\button.h
+.\objects\main.o: User\buzzer.h

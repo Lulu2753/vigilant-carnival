@@ -35,3 +35,7 @@ void LED_Turn(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)  //翻转灯的状态，�
 		GPIO_SetBits(GPIOx,GPIO_Pin);
 }
 
+void LED_Set(uint8_t mask)
+{
+	GPIO_Write(GPIOA, mask);
+}

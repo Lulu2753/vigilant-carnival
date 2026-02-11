@@ -418,16 +418,6 @@
               <FilePath>.\User\LED.h</FilePath>
             </File>
             <File>
-              <FileName>timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>timer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\timer.h</FilePath>
-            </File>
-            <File>
               <FileName>button.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\button.c</FilePath>
@@ -446,6 +436,16 @@
               <FileName>buzzer.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\User\buzzer.h</FilePath>
+            </File>
+            <File>
+              <FileName>music.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\music.c</FilePath>
+            </File>
+            <File>
+              <FileName>music.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\music.h</FilePath>
             </File>
           </Files>
         </Group>
