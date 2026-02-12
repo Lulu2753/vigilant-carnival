@@ -32,3 +32,4 @@
 .\objects\music.o: User\button.h
 .\objects\music.o: User\music.h
 .\objects\music.o: User\buzzer.h
+.\objects\music.o: User\music_songs.h

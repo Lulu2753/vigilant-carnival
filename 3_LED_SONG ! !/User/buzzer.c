@@ -53,7 +53,7 @@ void Buzzer_PlayTone(uint16_t frequency)
 	
 	TIM_SetAutoreload(TIM4,arr);  //设置ARR，即改变频率
 	
-	TIM_SetCompare3(TIM4,arr/2);  //设置占空比50%（响度）
+	TIM_SetCompare3(TIM4,arr/80);  //设置占空比12.5%（响度）
 	
 }
 

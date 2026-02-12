@@ -11,9 +11,8 @@ void Key_Init()
 	GPIO_Initstructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOB,&GPIO_Initstructure);
 }
-//extern uint8_t cnt = 0;
 
-/*uint8_t Key_Pressed_Release(void)
+uint8_t Key_Pressed_Release(void)
 {
 	static uint8_t key_state=0;
 	
@@ -22,18 +21,19 @@ void Key_Init()
 	switch(key_state)
 	{
 		case 0:
-			if(current == 0)
+			if(current == 0)  //按下则为低电平
 			{
 				for(volatile uint16_t i=0;i<1000;i++); //消抖
 				
 				if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0)
 					key_state=1;
+				
 			}break;
 			
 		case 1:
 			if(current==1)
 			{
-				for(volatile uint16_t i=0;i<1000;i++)
+				for(volatile uint16_t i=0;i<1000;i++);
 				
 				if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==1)
 				{
@@ -41,8 +41,7 @@ void Key_Init()
 					return 1;  //表示有效按键动作
 				}
 			}break;
-			
-			return 0;
-			
+		
 	}
-}*/
+	return 0;
+}

@@ -447,6 +447,11 @@
               <FileType>5</FileType>
               <FilePath>.\User\music.h</FilePath>
             </File>
+            <File>
+              <FileName>music_songs.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\music_songs.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
