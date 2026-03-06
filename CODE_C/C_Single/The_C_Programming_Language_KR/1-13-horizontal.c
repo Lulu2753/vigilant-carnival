@@ -1,24 +1,27 @@
 #include <stdio.h>
 
+
 #define IN 1
 #define OUT 0
 
 int main()
 {
-    int i, cnt, lastc, c, state;
+    int i, c, state;
 
     while((c = getchar()) != EOF)
     {
         if(c == ' ' || c == '\n' || c == '\t')
             {
-                cnt = 0;
                 state = OUT;
+                printf("\n");   //循环内立即打印，所以回车就输出
             }
+        // else if(state = OUT)
+        //     {
+        //         state =  IN;
+        //         printf("*");
+        //     }
         else
-            ++cnt;
-
-        if(state = IN)
-
+            printf("*");
     }
 
     
