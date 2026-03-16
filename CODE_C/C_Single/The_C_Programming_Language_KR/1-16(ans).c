@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXLINE 10  //！！允许的最大行长度
+#define MAXLINE 100  //！！允许的最大行长度
 
 int getline(char line[], int maxline);  //求长度
 void copy(char to[], char from[]);

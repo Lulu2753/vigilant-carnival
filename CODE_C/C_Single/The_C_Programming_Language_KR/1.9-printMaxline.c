@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXLINE 10  //！！允许的最大行长度
+#define MAXLINE 100  //！！允许的最大行长度
 
 /*
     while(还有未处理的行)
