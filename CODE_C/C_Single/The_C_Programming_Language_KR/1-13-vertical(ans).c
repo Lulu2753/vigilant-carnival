@@ -53,6 +53,7 @@ int main()
 
     for(i = MAXHIST; i > 0; --i)   //表示行数，永远一共15行，从上往下打印
     {
+        /*关键！*/
         for(j = 1; j < MAXWORD; ++j)   //从下往上数，判断
         {
             if(wl[j] * MAXHIST / maxvalue >= i)   //前面的比例是固定值，i在变化，i从最大值变小，达到定值就开始打印星号！！！
@@ -60,6 +61,7 @@ int main()
             else
                 printf("   ");
         }
+        /*关键！*/
 
         putchar('\n');
     }
